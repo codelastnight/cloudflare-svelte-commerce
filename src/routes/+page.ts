@@ -1,8 +1,8 @@
-import { client } from '$lib/commerce';
+import { getProducts } from '$lib/commerce';
 
 export async function load() {
 	//const { data: categories } = await client.categories.list();
-	const { data: products } = await client.products.list();
+	const { data: products } = await getProducts();
 
 	return {
 		//categories,

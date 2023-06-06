@@ -1,38 +1,21 @@
-# create-svelte
+#svelte + cloudflare pages + commerce.js
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+currently proof of concept
 
-## Creating a project
+builds on pages, but not ssr (runs fetch on client side atm)
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### dev
 
-# create a new project in my-app
-npm create svelte@latest my-app
+```
+pnpm i
 ```
 
-## Developing
+### cloudflare pages setup
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- change cloudflare development build to version 2
 
-```bash
-npm run dev
+- remember to use matching pnpm version with delopment and cloudflare ( i had some bugs between versions)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- use node 18 or higher (16 supposedly works but i havent tried)
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

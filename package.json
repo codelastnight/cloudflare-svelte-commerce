@@ -27,5 +27,9 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@chec/commerce.js": "^2.8.0",
+		"@types/chec__commerce.js": "^2.8.6"
+	}
 }

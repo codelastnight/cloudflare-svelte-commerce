@@ -1,4 +1,4 @@
-#svelte + cloudflare pages + commerce.js
+# svelte + cloudflare pages + commerce.js
 
 currently proof of concept
 
